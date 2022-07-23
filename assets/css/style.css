@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;1,200&display=swap');
+
+/* =========================================
+-------------------- MAIN -----------------
+========================================= */
+
+:root {
+    --clr-black: hsl(0, 0%, 0%);
+    --clr-grey: hsl(0, 0%, 95%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-acc: hsl(338, 100%, 50%);
+
+    --size-xs: 0.6rem;
+    --size-s: 0.8rem;
+    --size-m: 1rem;
+    --size-l: 1.5rem;
+
+    --fw-200: 200;
+    --fw-300: 300;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: var(--clr-white);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--clr-acc); 
+}
+
+::selection {
+    color: var(--clr-white);
+    background: var(--clr-black);
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    background: var(--clr-grey);
+    overflow: auto;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 30vh;
+    padding: 2rem;
+}
+
+/* =========================================
+---------------- TYPOGRAPHY -------------
+========================================= */
+
+p,
+.btn,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+b {
+    font-weight: 200;
+}
+
+a {
+    color: var(--clr-acc);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 0;
+}
+
+header p {
+    font-size: 1rem;
+    width: 30vw;
+}
+
+header a {
+    font-size: var(--size-m);
+    font-style: italic;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fs-s {
+    font-size: var(--size-s);
+}
+
+/* =========================================
+---------------- PROJECT GRID -------------
+========================================= */
+
+#projectGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
+}
+
+#projectGrid img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    background: var(--clr-white);
+    padding: 2rem;
+    box-shadow: 3px 3px 10px var(--clr-grey);
+        -moz-box-shadow: 3px 3px 10px var(--clr-grey);
+        -webkit-box-shadow: 3px 3px 10px var(--clr-grey);
+        -khtml-box-shadow: 3px 3px 10px var(--clr-grey);
+}
+
+#projectGrid a img {
+    transition: all 0.3s ease;
+
+}
+#projectGrid a:hover img {
+    opacity: 0.6;
+}
+
+#projectGrid h2 {
+    font-size: var(--size-xs);
+    font-weight: var(--fw-300);
+    color: var(--clr-black);
+    margin-top: 0.2rem;
+}
+
+/* =========================================
+------------------ PRELOADER ---------------
+========================================= */
+
+
+#preloader {
+    display: flex;
+    align-items: 70vh;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    transition: top 0.4s ease;
+    background: var(--clr-grey);
+    text-transform: uppercase;
+    font-size: var(--size-s);
+    z-index: 100;
+}
+
+#preloader * {
+    color: var(--clr-black);
+}
+
+#preloader.hide {
+    top: 110vh;
+}
+
+/* =========================================
+--------------- RESPONSIVENESS -------------
+========================================= */
+
+@media (max-width: 1400px) {
+    #projectGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    header p {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    #projectGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    header p {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #projectGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header p {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 600px) {
+    #projectGrid {
+        grid-template-columns: 1fr;
+    }
+
+    header p {
+        width: 90vw;
+    }
+}
