@@ -130,19 +130,44 @@ header a {
         -khtml-box-shadow: 3px 3px 10px var(--clr-grey);
 }
 
-#projectGrid a img {
+#projectGrid div img {
     transition: all 0.3s ease;
-
 }
-#projectGrid a:hover img {
-    opacity: 0.6;
+  
+#projectGrid div:hover img {
+    opacity: 0.1;
+    pointer-events: none;
 }
-
-#projectGrid h2 {
+  
+#projectGrid > div {
+    position: relative;
+    z-index: 1;
+}
+  
+#projectGrid > div > div {
+    position: absolute;
+    width: 70%;
+    top: 1.8rem;
+    left: 47%;
+    z-index: -1;  
+    transform: translateX(-50%);
+    display: inherit;
+    align-items: baseline;
+    gap: 0.2rem;
+    font-size: var(--size-xs);
+    font-weight: var(--fw-200);
+}
+  
+#projectGrid a {
     font-size: var(--size-xs);
     font-weight: var(--fw-300);
     color: var(--clr-black);
-    margin-top: 0.2rem;
+    text-decoration: none;
+}
+
+h2.title {
+    font-size: var(--size-xs);
+    font-weight: var(--fw-300);
 }
 
 /* =========================================
