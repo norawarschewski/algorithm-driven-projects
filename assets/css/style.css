@@ -130,6 +130,11 @@ header a {
         -khtml-box-shadow: 3px 3px 10px var(--clr-grey);
 }
 
+#projectGrid div.singleProjectLarge {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
 #projectGrid div img {
     transition: all 0.3s ease;
 }
@@ -183,7 +188,7 @@ h2.title {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 1rem;
+    padding: 2rem;
     transition: top 0.4s ease;
     background: var(--clr-grey);
     text-transform: uppercase;
