@@ -4,7 +4,7 @@ fetch("./assets/js/projects.json")
 
 function setup(data) {
   data.sort(() => Math.random() - 0.9);
-  dataset = [...data]; // s.o.
+  dataset = [...data];
 
   for (let i = 0; i < data.length; i++) {
     const project = data[i];
