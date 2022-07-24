@@ -1,4 +1,4 @@
-fetch("../../data/projects.json")
+fetch("./assets/js/projects.json")
   .then((response) => response.json())
   .then((data) => setup(data));
 
@@ -12,9 +12,9 @@ function setup(data) {
 
     const img = document.createElement("img");
     if (project.img !== false) {
-      img.src = `../assets/img/${project.img}`;
+      img.src = `./assets/img/${project.img}`;
     } else {
-      img.src = "../assets/img/placeholder.jpg";
+      img.src = "./assets/img/placeholder.jpg";
     }
 
     const description = document.createElement("div");
