@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 
 /* =========================================
 -------------------- MAIN -----------------
@@ -17,6 +17,7 @@
 
     --fw-200: 200;
     --fw-300: 300;
+    --fw-400: 400;
 }
 
 ::-webkit-scrollbar {
@@ -172,7 +173,7 @@ header a {
 
 h2.title {
     font-size: var(--size-xs);
-    font-weight: var(--fw-300);
+    font-weight: var(--fw-400);
 }
 
 /* =========================================
