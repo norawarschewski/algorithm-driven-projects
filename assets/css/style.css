@@ -29,7 +29,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--clr-acc); 
+    background: var(--clr-black); 
 }
 
 ::selection {
@@ -77,7 +77,7 @@ b {
 }
 
 a {
-    color: var(--clr-acc);
+    color: var(--clr-black);
 }
 
 p,
@@ -97,6 +97,7 @@ header p {
 header a {
     font-size: var(--size-m);
     font-style: italic;
+    text-decoration: none;
 }
 
 .fw-300 {
