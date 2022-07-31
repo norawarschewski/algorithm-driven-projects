@@ -235,6 +235,11 @@ h2.title {
         grid-template-columns: 1fr 1fr;
     }
 
+    #projectGrid div.singleProjectLarge {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
     header p {
         width: 60vw;
     }
