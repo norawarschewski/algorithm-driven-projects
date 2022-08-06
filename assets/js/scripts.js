@@ -10,6 +10,7 @@ function setup(data) {
     const project = data[i];
     const singleProject = document.createElement("div");
     singleProject.setAttribute("id", i);
+    const wrapper = document.createElement("div");
 
     const img = document.createElement("img");
     if (project.img !== false) {
@@ -34,4 +35,6 @@ function setup(data) {
   document.getElementById("21").classList.add("singleProjectLarge");
   document.getElementById("25").classList.add("singleProjectLarge");
   document.getElementById("31").classList.add("singleProjectLarge");
+  document.getElementById("36").classList.add("singleProjectLarge");
+  //document.getElementById("42").classList.add("singleProjectLarge");
 }
