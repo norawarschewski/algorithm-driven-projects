@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,400;1,700&display=swap');
 
 /* =========================================
 -------------------- MAIN -----------------
@@ -44,7 +44,7 @@
 html,
 body {
     margin: 0;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'PT Serif', serif;
     background: var(--clr-grey);
     overflow: auto;
 }
@@ -73,7 +73,7 @@ h5,
 h6,
 li,
 b {
-    font-weight: 200;
+    font-weight: 400;
 }
 
 a {
@@ -91,7 +91,7 @@ h5 {
 
 header p {
     font-size: 1rem;
-    width: 30vw;
+    width: 25vw;
 }
 
 header a {
@@ -100,8 +100,8 @@ header a {
     text-decoration: none;
 }
 
-.fw-300 {
-    font-weight: 300;
+.fw-700 {
+    font-weight: 700;
 }
 
 .fs-s {
@@ -161,20 +161,34 @@ header a {
     display: inherit;
     align-items: baseline;
     gap: 0.2rem;
-    font-size: var(--size-xs);
-    font-weight: var(--fw-200);
+    font-size: var(--size-s);
+    font-weight: var(--fw-300);
+}
+
+#projectGrid div.singleProjectLarge > div {
+    position: absolute;
+    width: 70%;
+    top: 1.8rem;
+    left: 41%;
+    z-index: -1;  
+    transform: translateX(-50%);
+    display: inherit;
+    align-items: baseline;
+    gap: 0.2rem;
+    font-size: var(--size-s);
+    font-weight: var(--fw-300);
 }
   
 #projectGrid a {
-    font-size: var(--size-xs);
+    font-size: var(--size-s);
     font-weight: var(--fw-300);
     color: var(--clr-black);
     text-decoration: none;
 }
 
 h2.title {
-    font-size: var(--size-xs);
-    font-weight: var(--fw-400);
+    font-size: var(--size-s);
+    font-weight: var(--fw-300);
 }
 
 /* =========================================
