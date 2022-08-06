@@ -259,10 +259,45 @@
     "img": "SP_dhl.jpg"
   },
   {
-    "title": "Breathing",
-    "designer": "Nora Warschewski",
-    "website": "https://nora-warschewski.de",
-    "url": "",
-    "img": "NW_breathing.gif"
+    "title": "Harpers Bazar Cover, <br />(Original Artwork: Jaemin Lee)",
+    "designer": "Stig Møller Hansen",
+    "website": "https://www.stigmollerhansen.dk",
+    "url": "https://www.instagram.com/p/CdDPj4XoV2v",
+    "img": "SMH_hapersbazar.gif"
+  },
+  {
+    "title": "Nike Pegasus 35, <br />(Original Artwork: Krayt Advertising)",
+    "designer": "Stig Møller Hansen",
+    "website": "https://www.stigmollerhansen.dk",
+    "url": "https://www.instagram.com/p/CcxNk8GIBea",
+    "img": "SMH_nikepegasus35.gif"
+  },
+  {
+    "title": "Musique et Arts Visuelles, <br />(Original Artwork: Atelier Tout va Bien)",
+    "designer": "Stig Møller Hansen",
+    "website": "https://www.stigmollerhansen.dk",
+    "url": "https://www.instagram.com/p/CcgL3i6I5ox",
+    "img": "SMH_MV.gif"
+  },
+  {
+    "title": "Leeds College of Music",
+    "designer": "Precedent / Karsten Schmidt",
+    "website": "http://postspectacular.com",
+    "url": "https://vimeo.com/67382947",
+    "img": "KS_leeds.jpg"
+  },
+  {
+    "title": "Decode: Digital Design Sensations",
+    "designer": "Karsten Schmidt",
+    "website": "http://postspectacular.com",
+    "url": "https://vimeo.com/7791424",
+    "img": "KS_decode.jpg"
+  },
+  {
+    "title": "Actelion Imagery Wizard",
+    "designer": "onformative",
+    "website": "https://onformative.com",
+    "url": "https://vimeo.com/27327134",
+    "img": "OF_actelion.jpg"
   }
 ]
