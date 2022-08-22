@@ -299,5 +299,19 @@
     "website": "https://onformative.com",
     "url": "https://vimeo.com/27327134",
     "img": "OF_actelion.jpg"
+  },
+  {
+    "title": "Lofi Poster Machine",
+    "designer": "Tim Rodenbröker",
+    "website": "https:/timrodenbroeker.de",
+    "url": "https://timrodenbroeker.github.io/lofi-poster-machine/",
+    "img": "TR_postermachine.jpeg"
+  },
+  {
+    "title": "Slanted Cover Animation",
+    "designer": "Tim Rodenbröker",
+    "website": "https:/timrodenbroeker.de",
+    "url": "https://www.instagram.com/p/Bp2A_6Phaoj/",
+    "img": "TR_slanted.gif"
   }
 ]
