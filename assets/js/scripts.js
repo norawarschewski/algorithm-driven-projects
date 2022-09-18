@@ -36,5 +36,5 @@ function setup(data) {
   document.getElementById("25").classList.add("singleProjectLarge");
   document.getElementById("31").classList.add("singleProjectLarge");
   document.getElementById("36").classList.add("singleProjectLarge");
-  //document.getElementById("42").classList.add("singleProjectLarge");
+  document.getElementById("41").classList.add("singleProjectLarge");
 }
