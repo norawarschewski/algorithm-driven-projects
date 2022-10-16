@@ -317,8 +317,15 @@
   {
     "title": "Processing Case Study",
     "designer": "Design Systems International",
-    "website": "hhttps://designsystems.international",
+    "website": "https://designsystems.international",
     "url": "https://designsystems.international/work/processing-foundation",
     "img": "DS_processing-mugs.webp"
+  },
+  {
+    "title": "Nusom",
+    "designer": "André Burnier",
+    "website": "https://www.andreburnier.com",
+    "url": "https://www.andreburnier.com/project/nusom",
+    "img": "AB_nusom.jpg"
   }
 ]
