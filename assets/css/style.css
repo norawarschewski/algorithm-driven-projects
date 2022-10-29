@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,400;1,700&display=swap');
+@font-face {
+    font-family: "PT Serif";
+    font-weight: 400;
+    src: url(../type/PTSerif-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: "PT Serif";
+    font-weight: 700;
+    src: url(../type/PTSerif-Bold.ttf) format("ttf");
+}
 
 /* =========================================
 -------------------- MAIN -----------------
@@ -15,7 +25,6 @@
     --size-m: 1rem;
     --size-l: 1.5rem;
 
-    --fw-400: 400;
     --fw-400: 400;
 }
 
